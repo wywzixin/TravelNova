@@ -6,6 +6,10 @@ tags: [大模型, LoRA, Agent, RAG, Qwen]
 
 # 旅行助手中的大模型微调：从 Qwen3-0.6B 到可调用工具的本地 Agent
 
+> 微调实战 · [第一篇：数据构造](travel-assistant-sft-data-pipeline.md) → [第二篇：LoRA 训练原理](qwen3-lora-training-core.md) → 第三篇：微调与 Agent 联调
+>
+> [博客阅读](https://wywzixin.github.io/agent/travel-assistant-finetuning/) · [返回项目首页](README.md)
+
 这次实践得到一个很明确的结论：**微调负责让模型学会做事，RAG 负责提供知识，工具负责连接真实世界。** 把三件事混成一件事，模型会变得难以调试；把它们拆开，旅行助手的每一步都能单独验证。
 
 最终的调用链是：

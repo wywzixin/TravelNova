@@ -6,6 +6,10 @@ tags: [大模型, LoRA, Qwen, SFT, Agent]
 
 # LoRA 是怎么接进旅行助手的：Qwen3-0.6B 微调脚本拆解
 
+> 微调实战 · [第一篇：数据构造](travel-assistant-sft-data-pipeline.md) → 第二篇：LoRA 训练原理 → [第三篇：微调与 Agent 联调](travel-assistant-llm-finetuning.md)
+>
+> [博客阅读](https://wywzixin.github.io/agent/qwen3-lora-training/) · [返回项目首页](README.md)
+
 上一篇文章讲了旅行助手的微调数据如何生成。这篇继续往下看训练代码，专门拆解项目中的 `train_qwen_lora.py`：模型怎样加载，LoRA 适配器怎样插入，哪些 token 会参与 loss，`Trainer` 怎样完成训练，以及训练完成后如何使用 LoRA。
 
 这份脚本实现的是**普通 LoRA**。它会完整加载 Qwen3-0.6B 基座模型，在指定的注意力层和 MLP 层旁边增加可训练的低秩矩阵；基座模型参数保持冻结。脚本没有使用 4-bit 量化，因此它不是 QLoRA。
