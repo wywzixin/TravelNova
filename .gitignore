@@ -1,0 +1,46 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# OS metadata and copied backups
+.DS_Store
+*(1).*
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime logs and local databases
+*.log
+*.db
+*.db-*
+.milvus*.lock
+
+# Generated local artifacts
+.tmp_*/
+tmp_browser/
+outputs/
+converted_train_final/
+converted_test_final/
+test_converted/
+_notebook_extract/
+data/generation_progress.json
+
+# Model weights are distributed separately from the source repository
+/models/
+/qwen3-0.6b-clean/
+/qwen3-0.6b-existing-data-lora/
+/qwen3-0.6b-existing-data-merged/
+
+# Obsolete local experiments and generated install output
+/4.0.0
+/pelican_bicycle_animation.html
+/log_utils.py
+/travel_assistant_funcall.py
+/test_funcall.py
+/data/china_cities_list.json
+/design/pelican_wukong_qinshihuang.svg
+/tools/llm_tool.py
+/tools/test_llm_tool.py

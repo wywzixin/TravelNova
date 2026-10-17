@@ -1,0 +1,14 @@
+Use case: ui-mockup
+Asset type: high fidelity desktop web product design screenshot, 16:9
+Primary request: Design a polished Chinese desktop web interface for an AI travel planning assistant named “旅行助手 Agent”. The user enters a natural-language request and receives an itinerary with a live map. Show a realistic browser product mockup, not a marketing poster.
+Scene/backdrop: clean desktop browser window, white and very light blue workspace, modern travel SaaS product.
+Subject: split layout. Left panel about 35 percent width with a top brand row, a natural-language input box containing “帮我规划烟台3天行程”, a green “开始规划” button, a compact tool progress section with rows “攻略检索 已完成”, “天气查询 已完成”, “路线规划 已完成”, “酒店推荐 待请求”, then a scrollable itinerary titled “烟台 3 日旅行计划”. Show three collapsible day cards with concise Chinese content: “第1天 烟台山 · 滨海广场”, “第2天 蓬莱阁 · 三仙山”, “第3天 养马岛 · 沿海骑行”. Include an obvious “酒店” entry card with hotel recommendation details and buttons “查看详情” and “去平台预订”.
+Right panel: large clean illustrated map of Yantai city and coast, map labels in Chinese, blue route polyline with numbered day markers, location pins for 烟台山、滨海广场、蓬莱阁、三仙山、养马岛, a small origin-to-destination transport chip “北京 → 烟台 高铁 / 飞机可选”, and map controls. Use plausible cartographic styling, clear route, no real brand logos.
+Style/medium: high fidelity product UI mockup, crisp vector-like interface, realistic browser screenshot, strong hierarchy, generous whitespace, professional travel technology product.
+Composition/framing: straight-on desktop screenshot, 1536x864 proportion, left itinerary panel and right map dominant, all important UI visible.
+Lighting/mood: bright, calm, trustworthy, useful.
+Color palette: white, pale blue, teal green accents, dark navy text, cyan route line, restrained orange weather accents.
+Materials/textures: subtle shadows, rounded cards, thin borders, polished map tiles.
+Text (verbatim): “旅行助手 Agent”, “帮我规划烟台3天行程”, “开始规划”, “攻略检索 已完成”, “天气查询 已完成”, “路线规划 已完成”, “酒店推荐 待请求”, “烟台 3 日旅行计划”, “第1天 烟台山 · 滨海广场”, “第2天 蓬莱阁 · 三仙山”, “第3天 养马岛 · 沿海骑行”, “酒店”, “查看详情”, “去平台预订”, “北京 → 烟台 高铁 / 飞机可选”.
+Constraints: UI must be easy to understand at a glance; map and itinerary must look connected; avoid showing hidden chain-of-thought; use only tool progress statuses. No watermarks, no English filler text, no unrelated people, no brand logos, no fake payment confirmation.
+Avoid: overly dark theme, cluttered dashboard, tiny unreadable text, poster layout, mobile layout.
